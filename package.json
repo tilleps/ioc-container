@@ -1,0 +1,14 @@
+{
+  "name": "tilleps-ioc-container",
+  "version": "0.1.0",
+  "description": "A lightweight inversion of control container for JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ioc"
+  ],
+  "author": "Eugene Song <tilleps@gmail.com>",
+  "license": "MIT"
+}
