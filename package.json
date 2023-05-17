@@ -2,7 +2,17 @@
   "name": "tilleps-ioc-container",
   "version": "0.1.0",
   "description": "A lightweight inversion of control container for JavaScript",
-  "main": "index.js",
+  "exports": {
+    ".": {
+      "import": "./lib/index.mjs",
+      "require": ""
+    },
+    "./*": {
+      "import": "./lib/*.mjs",
+      "require": ""
+    }
+  },
+  "types": "./lib/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier --write lib/",
